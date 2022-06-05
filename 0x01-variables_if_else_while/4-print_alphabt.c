@@ -9,7 +9,7 @@
  *Return: Always (Success)
  */
 int main(void)
-{char i	
+{char i;
 	for (i = 'a'; i <= 'z'; i++)
 {
 	if ((i != 'q') && ( i != 'e'))
