@@ -2,10 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 
-/** 
-*main - the entry point
+/**
+*main - the entry poin
 *
-*Return: Always(Success) 
+*Return: Always(Success)
 */     
 
 int main(void)
