@@ -3,10 +3,9 @@
 #include <stdio.h>
 
 /**
-*main - the entry poin
-*
-*Return: Always(Success)
-*/     
+*main - Print the alfabet
+*Return: Always (Success)
+*/
 
 int main(void)
 	
