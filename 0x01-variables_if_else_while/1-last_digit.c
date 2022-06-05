@@ -3,10 +3,10 @@
 #include <stdio.h>
 
 /** 
- *main - the entry point
- *
- *Return: Always(Success)
- */     
+*main - the entry point
+*
+*Return: Always(Success) 
+*/     
 
 int main(void)
 	
