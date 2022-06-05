@@ -12,7 +12,8 @@ int main(void)
 {int i;
 	for (i = 0; i < 10; i++)
 {
-	printf("%d", i);
+	char chval = i + '0';
+	putchar(chval);
 }
 putchar('\n');
 return (0);
