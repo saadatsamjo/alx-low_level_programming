@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <time.h>
 /*
  * main - Print if number is positive, zero or negative
  *   
