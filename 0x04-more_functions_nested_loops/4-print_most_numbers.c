@@ -1,8 +1,8 @@
 #include "main.h"
 
-int main()
+int main(void)
 {
-  int numbers()
+  void print_most_numbers(void)
   {
     for (int N =0; N <= 9; N++)
       {
