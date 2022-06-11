@@ -1,20 +1,18 @@
 #include "main.h"
 
-int main(void)
+/**
+ * print_most_numbers - prints number not two, four
+ */
+
+void print_most_numbers(void)
 {
-  void print_most_numbers(void)
-  {
-    for (int N =0; N <= 9; N++)
-      {
-	if (N == 2 || N == 3)
-	  {
-	    continue;
-	  }
-	else
-	  {
-	    _putchar(N);
-	  }
-      }
-    _putchar("\n");
-  }
+	int i;
+	for (i = 48; i < 58; i++)
+	{
+		if (i != 50 && i != 52)
+		{
+			_putchar(i);
+		}
+	}
+	_putchar('\n')
 }
