@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * main - checks if its uppercase
- * Return: 0
- */
+* main - checks if its uppercase
+* @c: input character.
+* Return: 0
+*/
 
 int main(void)
 {
