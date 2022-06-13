@@ -8,7 +8,7 @@
  */
 
 char *str;
-str = "thestring";
+char str = "thestring";
 void print_rev(char *s)
 {
 	int i;
