@@ -8,11 +8,11 @@
  *
  */
 
-void _puts(char *s)
+void _puts(char *str)
 {
 	int i = 0;
 
-	while(s[i] != '\0')
-		printf("%c\n",s[i]);
+	while(str[i] != '\0')
+		printf("%c\n", str[i]);
 	i++;
 }
