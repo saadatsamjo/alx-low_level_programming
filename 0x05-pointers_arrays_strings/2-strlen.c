@@ -2,8 +2,8 @@
 
 /**
  * _strlen - returns length
- *
- * Rerurn: the length
+ * @s: parameter
+ * Return: the length
  *
  */
 
