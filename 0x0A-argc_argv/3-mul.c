@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <math.h>
+#include <stdlib.h>
 
 /**
  * main - finds product arguments it receives.
@@ -10,13 +11,14 @@
 
 int main(int argc, char *argv[])
 {
-	int i;
+	int i, x, y;
 
-	if(argc !== 3)
+	x = strtol(argv[1], NULL, 10);
+	y = strtol(argv[2], NULL, 10); 
+	if (argc != 3)
 		return (1);
-	else
 	{
-		printf("%d", argv[1]*argv[2]);
+		printf("%d", x * y);
 	}
 	return (0);
 }
