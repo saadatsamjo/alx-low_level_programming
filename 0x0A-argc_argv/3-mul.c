@@ -11,11 +11,12 @@
 
 int main(int argc, char *argv[])
 {
-	int i, x, y;
+	int x, y;
 
 	x = atoi(argv[1]);
 	y = atoi(argv[2]);
 	if (argc != 3)
+		printf("Error\n");
 		return (1);
 	{
 		printf("%d", x * y);
