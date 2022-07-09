@@ -13,8 +13,8 @@ int main(int argc, char *argv[])
 {
 	int i, x, y;
 
-	x = strtol(argv[1], NULL, 10);
-	y = strtol(argv[2], NULL, 10); 
+	x = atoi(argv[1]);
+	y = atoi(argv[2]);
 	if (argc != 3)
 		return (1);
 	{
