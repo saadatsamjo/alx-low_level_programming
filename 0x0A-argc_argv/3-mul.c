@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	{
-		printf("%d", x * y);
+		printf("%d\n", x * y);
 	}
 	return (0);
 }
