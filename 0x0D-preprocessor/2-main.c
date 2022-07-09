@@ -4,5 +4,5 @@
 int main (void)
 {
 	printf("%s", __FILE__);
-	Return 0;
+	return 0;
 }
