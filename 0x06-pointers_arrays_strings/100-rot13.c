@@ -6,7 +6,7 @@
  * Return: the pointer to dest.
  */
 
-/*char *rot13(char *s)
+char *rot13(char *s)
 {
 	int count = 0, i;
 	char alphabet[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -23,15 +23,4 @@
 	}
 	count++;
 	return (s);
-}*/
-
-
-int main(void) {
-    char text[] = "Hello, World! This is ROT13 encoding.";
-    
-    printf("Original: %s\n", text);
-    rot13(text);
-    printf("ROT13: %s\n", text);
-    
-    return 0;
 }
