@@ -1,12 +1,10 @@
 #include "3-calc.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>  // Include the <string.h> header for strcmp
 
 /**
  * get_op_func - selects the correct function to perform the operation
  * @s: operator passed as argument
- *
  * Return: pointer to the appropriate function, or NULL if operator not found
  */
 int (*get_op_func(char *s))(int, int)
@@ -23,10 +21,12 @@ int (*get_op_func(char *s))(int, int)
 
     while (ops[i].op != NULL)
     {
-        if (strcmp(s, ops[i].op) == 0)
+        if (*(ops[i].op) == *(s))
             return (ops[i].f);
         i++;
     }
 
+    fprintf(stderr, "Error: Operator '%s' not recognized\n", s);  // Print error message to stderr
+    exit(99);
     return (NULL);
 }
